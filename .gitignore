@@ -1,9 +1,7 @@
-.tools/
-tools/
-**/.build/
-**/dist-newstyle/
-**/__pycache__/
-**/*.hi
-**/*.o
-**/*.dyn_hi
-**/*.dyn_o
+.build/
+dist-newstyle/
+__pycache__/
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
