@@ -1,7 +1,6 @@
-TOOLS ?= ../tools/run
-GHC ?= $(TOOLS) ghc
-HLINT ?= $(TOOLS) hlint
-FOURMOLU ?= $(TOOLS) fourmolu
+GHC ?= ghc
+HLINT ?= hlint
+FOURMOLU ?= fourmolu
 FLAGS := -Wall -Werror -isrc
 MODULES := $(wildcard src/Euler/*.hs)
 SOURCES := $(MODULES) app/Main.hs test/Spec.hs
